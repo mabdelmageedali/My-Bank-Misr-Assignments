@@ -27,30 +27,7 @@ This project demonstrates a well-structured Spring Boot application with:
 - Created DTOs that break circular references
 - DTOs include computed fields like counts and related entity names
 
-## Project Structure
 
-```
-src/
-├── main/
-│   ├── java/com/example/studentcourse/
-│   │   ├── entity/
-│   │   │   ├── Student.java
-│   │   │   ├── Course.java
-│   │   │   └── Category.java
-│   │   ├── repository/
-│   │   │   ├── StudentRepository.java
-│   │   │   ├── CourseRepository.java
-│   │   │   └── CategoryRepository.java
-│   │   ├── dto/
-│   │   │   ├── StudentDto.java
-│   │   │   ├── CourseDto.java
-│   │   │   └── CategoryDto.java
-│   │   ├── DataInitializer.java
-│   │   └── StudentCourseApplication.java
-│   └── resources/
-│       └── application.properties
-└── test/
-    └── java/
 ```
 
 ## Technology Stack
